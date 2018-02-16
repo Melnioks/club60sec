@@ -1,0 +1,54 @@
+body {
+	background: beige;
+	margin: 100px;
+	padding: 0;
+	color: gray;
+	font-family: Verdana, sana-serif;
+	line-height: 1.5em;	
+}
+#container {
+	width: 965px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+header {
+	text-align: center;
+	padding: 20px 0;
+}
+h1 {
+	font: normal 4em/1em Georgia, serif;
+}
+#slider {
+	float: left;
+	overflow: hidden;
+	width: 940px;
+	height: 639px;
+	padding: 0;
+	border: 2px solid grey;
+	position: relative;
+}
+.slide {
+	position: absolute;
+
+}
+.text {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 20px;
+	margin-bottom: 5px;
+	background: rgba(0,0,0,0.3);
+}
+#prev, #next {
+	float: left;
+	cursor: pointer;
+	position: relative;
+	margin-top: 135px;
+	z-index: 100;
+}
+#prev {
+	margin-right: -50px;
+}
+
+#next {
+	margin-left: -50px;
